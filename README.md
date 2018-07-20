@@ -1,5 +1,7 @@
 # Helm-Kubernetes + Helm-Secrets Docker hub image
 
+[![Build Status](https://travis-ci.org/cousine/helm-kubectl-secrets.svg?branch=master)](https://travis-ci.org/cousine/helm-kubectl-secrets)
+
 ## Overview
 
 This image is adds to [dtzar/helm-kubectl](https://hub.docker.com/r/dtzar/helm-kubectl)
