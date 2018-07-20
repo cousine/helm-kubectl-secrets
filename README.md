@@ -54,4 +54,3 @@ docker run -it -v ~/your-gcp-key-folder:/root/keys cousine/helm-kubectl-secrets 
   helm-wrapper install -f encrypted_values.yaml stable/mariadb
 ```
 
-
