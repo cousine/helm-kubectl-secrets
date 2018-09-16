@@ -4,11 +4,17 @@
 
 ## Overview
 
-This image is adds to [dtzar/helm-kubectl](https://hub.docker.com/r/dtzar/helm-kubectl)
-[Helm Secrets](https://github.com/futuresimple/helm-secrets) plugin.
+This image is similar to and based on [dtzar/helm-kubectl](https://hub.docker.com/r/dtzar/helm-kubectl)
+but adds [Helm Secrets](https://github.com/futuresimple/helm-secrets) plugin as well as google cloud cli.
 
 This image is useful to build continuos deployment jobs that can work with encrypted
 secrets in your helm charts.
+
+## Supported Tags
+
+* 2.9.1-gcp, 2.10.0-gcp (helm + kubectl + secrets + google cloud)
+* 2.9.1-vanilla, 2.10.0-vanilla (helm + kubectl + secrets without google cloud)
+* 2.9.1, latest (legacy tags, at the moment the `latest` tag is not being updated)
 
 ## Run
 
