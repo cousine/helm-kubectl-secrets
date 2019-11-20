@@ -12,6 +12,8 @@ env:
   - VERSION=2.10.0 VARIANT=gcp
   - VERSION=2.9.1 VARIANT=vanilla
   - VERSION=2.9.1 VARIANT=gcp
+  - VERSION=3.0.0 VARIANT=vanilla
+  - VERSION=3.0.0 VARIANT=gcp
 
 before_script:
   - env | sort
